@@ -5,5 +5,8 @@ class Homepage(TemplateView):
     template_name = 'homepage.html'
 
 
+class Cadastro(TemplateView):
+    template_name = 'cadastro.html'
+
 class Login(TemplateView):
-    template_name = 'login.html'
+    template_name = 'login.html'    

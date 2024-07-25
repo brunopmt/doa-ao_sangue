@@ -3,25 +3,29 @@
 {% block titulo %} login 
 {% endblock %}
 {% block content %}
-<div class="body-login-red">
+<div class="body-login">
     <div class="main-container-login ">
         <div class="image-container-login">
             <img src="{% static 'images/imagelogin.png' %}" alt="Side Image">
         </div>
         <div class="form-container-login">
-            <h2>Login</h2>
+            <h2>Bem Vindo!</h2>
             
             <form>
-                
                 <div class="form-group-login">
-                    <label for="username">Usuário ou E-mail</label>
+                    <label for="E-mail">E-mail</label>
+                    <input type="text" id="E-mail" placeholder="E-mail">
+                    <span class="heart-icon-login">&#10084;</span>
+                </div>
+                <div class="form-group-login">
+                    <label for="username">Usuário</label>
                     <input type="text" id="username" placeholder="Username">
                 </div>
                 <div class="form-group-login">
                     <label for="password">Senha</label>
                     <input type="password" id="password" placeholder="Password">
                 </div>
-                <button class="button-green" type="submit">Login</button>
+                <button class="button-red" type="submit">Cadastre-se</button>
             </form>
         </div>
     </div> 
@@ -30,4 +34,5 @@
 
     
 {% endblock %}
+
 
