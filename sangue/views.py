@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView 
 
 class Homepage(TemplateView): 
     template_name = 'homepage.html'
@@ -10,3 +10,6 @@ class Cadastro(TemplateView):
 
 class Login(TemplateView):
     template_name = 'login.html'    
+
+class Doador(TemplateView):
+    template_name = 'doador.html'    
