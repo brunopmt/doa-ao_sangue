@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block titulo %} Agendamento de Consultas 
+{% endblock %}
+{% block content %}
+
+<div class="container-agenda">
+    <h1 class="h1-title-agenda">Agendamento de Consulta para Doação de Sangue</h1>
+    <form class="form-agenda" id="appointmentForm">
+        <label class="label-agenda" for="name">Nome:</label>
+        <input class="input-agenda" type="text" id="name" name="name" required>
+
+        <label  class="label-agenda" for="email">E-mail:</label>
+        <input  class="input-agenda" type="email" id="email" name="email" required>
+
+        <label class="label-agenda" for="phone">Telefone:</label>
+        <input class="input-agenda" type="tel" id="phone" name="phone" required>
+
+        <label class="label-agenda" for="date">Data da Consulta:</label>
+        <input class="input-agenda" type="date" id="date" name="date" required>
+
+        <label class="label-agenda" for="time">Hora da Consulta:</label>
+        <input class="input-agenda" type="time" id="time" name="time" required>
+
+        <button class="button-agenda" type="submit">Agendar</button>
+        <p id="confirmationMessage" class="hidden"></p>
+    </form>
+</div>
+<script src="script.js"></script>
+
+
+
+
+{% endblock %}

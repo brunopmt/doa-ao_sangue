@@ -13,3 +13,6 @@ class Login(TemplateView):
 
 class Doador(TemplateView):
     template_name = 'doador.html'    
+
+class Agenda(TemplateView):
+    template_name = 'agenda.html'     

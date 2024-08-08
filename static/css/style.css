@@ -184,6 +184,8 @@ input[type="password"] {
    color: #fff;
 }
 
+
+/*doador */
 /* Estilos para a tabela */
 table tr td {
    vertical-align: middle;
@@ -291,5 +293,67 @@ form .inputField > div input {
 #readData form .inputField > div input {
    color: #000;
    font-size: 18px;
+}
+
+/*doador */
+
+
+/*agenda*/
+
+
+
+.container-agenda {
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1-title-agenda {
+   text-align: center;
+   color: #333;
+}
+
+.form-agenda {
+   display: flex;
+   flex-direction: column;
+}
+
+.label-agenda {
+   margin-bottom: 5px;
+   color: #555;
+}
+
+.input-agenda {
+   margin-bottom: 15px;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+
+.button-agenda {
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: #28a745;
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.button-agenda:hover {
+   background-color: #218838;
+}
+
+.hidden {
+   display: none;
+}
+
+#confirmationMessage {
+   color: #28a745;
+   text-align: center;
+   font-size: 16px;
 }
 

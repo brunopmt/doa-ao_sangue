@@ -1,4 +1,4 @@
-from .views import Homepage, Cadastro, Login, Doador
+from .views import Homepage, Cadastro, Login, Doador, Agenda 
 from django.urls import path
 from django.contrib.auth import views 
 
@@ -9,4 +9,6 @@ urlpatterns=[
     path('cadastro/',Cadastro.as_view(), name='cadastro'),
     path('login/',Login.as_view(), name= 'login'),
     path('doador/',Doador.as_view(), name='doador'),
+    path('agenda/',Agenda.as_view(), name='agenda'),
+    
 ]
