@@ -5,13 +5,13 @@
 }
 
 .fundo {
-   background-color: #C0C0C0; 
+   background-color: #c0c0c0; 
 }
 
 
-.body-login {
+.body-login-linear {
    min-height: 100vh;
-   background: linear-gradient(to bottom, #DC143C, #ffffff); /* Gradiente linear de cima para baixo */
+   background: linear-gradient(to bottom, #DC143C, #631e1e); /* Gradiente linear de cima para baixo */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -20,7 +20,7 @@
 
 .body-login-red {
    min-height: 100vh;
-   background-color:  #DC143C; 
+   background-color:  #b51031; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -86,7 +86,7 @@ input[type="password"] {
 
 .button-red {
    position: relative;
-   background-color: #f44336;
+   background-color: #d10e00;
    color: #fff;
    padding: 12px 20px;
    border: none;
@@ -101,7 +101,7 @@ input[type="password"] {
 
 .button-green {
    position: relative;
-   background-color: #229e00;
+   background-color: #253695;
    color: #fff;
    padding: 12px 20px;
    border: none;
@@ -299,7 +299,6 @@ form .inputField > div input {
 
 
 /*agenda*/
-
 
 
 .container-agenda {

@@ -16,3 +16,6 @@ class Doador(TemplateView):
 
 class Agenda(TemplateView):
     template_name = 'agenda.html'     
+
+class Receptor(TemplateView):
+    template_name = 'receptor.html'      
